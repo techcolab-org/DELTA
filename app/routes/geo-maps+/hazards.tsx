@@ -104,8 +104,8 @@ export default function Hazards() {
                                     width: '10px',
                                     cursor: 'pointer',
                                     transform: expanded[group.title]
-                                        ? 'rotate(180deg)'
-                                        : 'rotate(0deg)',
+                                        ? 'rotate(0deg)'
+                                        : 'rotate(180deg)',
                                     transition: 'transform 0.2s ease',
                                 }}
                             />

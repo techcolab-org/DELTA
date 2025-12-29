@@ -64,7 +64,7 @@ const MapFilter = () => {
                             style={{
                                 height: '15px',
                                 width: '15px',
-                                transform: expanded['location'] ? 'rotate(180deg)' : 'rotate(0deg)',
+                                transform: expanded['location'] ? 'rotate(0deg)' : 'rotate(180deg)',
                                 transition: 'transform 0.2s ease',
                             }}
                         />
